@@ -31,8 +31,8 @@ fields:
   name: hero
   label: Hero Image
 pages:
-- content/blog-posts/Some Folder Name/2017-04-30-why-we-built-a-company-before-a-product/default.md
 - content/blog-posts/self-reliance.md
+- content/blog-posts/Some Folder Name/2017-04-30-why-we-built-a-company-before-a-product/default.md
 - content/blog-posts/sunflower-sutra.md
 - content/blog-posts/Walking.md
 - content/blog-posts/geneology-of-morals.md
