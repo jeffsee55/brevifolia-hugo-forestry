@@ -12,6 +12,8 @@
 
 ## About
 
+---
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/587d59dd-df0a-4651-a5b4-e1701e0ef15b/deploy-status)](https://app.netlify.com/sites/brevifolia-hugo-forestry/deploys)
 
 Brevifolia is minimalist blog starter to get you going using [Forestry](https://forestry.io/) with [Hugo](https://gohugo.io/). See the demo [here](https://brevifolia-hugo-forestry.netlify.com/)
