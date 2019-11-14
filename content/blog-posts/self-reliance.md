@@ -2,7 +2,7 @@
 author = "Ralph Waldo Emerson"
 date = 2019-08-03T07:00:00Z
 hero = "/images/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg"
-title = "Ne te quaesiveris extra. This is a title change. And here is another"
+title = "Ne te quaesiveris extra. This is a title change."
 type = "blog"
 
 +++
