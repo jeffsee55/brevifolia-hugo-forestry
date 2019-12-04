@@ -39,5 +39,5 @@ fields:
   description: Enter contact info here
 pages:
 - content/blog-posts/Some Folder Name/Some Other Name/this-should-be-in-the-some-other-name-folder.md
-- content/about/info.md
 - content/blog-posts/Some Folder Name/Some Other Name/Newww/some-example-info-page.md
+- content/about/info.md
