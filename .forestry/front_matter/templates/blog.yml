@@ -31,6 +31,7 @@ fields:
   name: hero
   label: Hero Image
 pages:
+- content/blog-posts/Some Folder Name/Some Other Name/Newww/Test1/default.md
 - content/blog-posts/sunflower-sutra.md
 - content/blog-posts/geneology-of-morals.md
 - content/blog-posts/Some Folder Name/default.md
