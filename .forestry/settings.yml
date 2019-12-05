@@ -6,16 +6,11 @@ webhook_url:
 sections:
 - type: heading
   label: Content
-- type: directory
-  path: my-directory
-  label: Multiples
-  create: all
-  match: "**/*"
 - type: document
   path: content/about/info.md
   label: Info Page
 - type: directory
-  path: content/blog-posts-2
+  path: content/blog-posts
   label: Blog posts
   create: all
   match: "**/*"
@@ -44,10 +39,9 @@ build:
   - HUGO_ENV=staging
   - HUGO_VERSION=0.55.6
   preview_output_directory: public
-  install_dependencies_command: npm install
   preview_docker_image: forestryio/hugo:latest
   mount_path: "/srv"
   working_dir: "/srv"
   instant_preview_command: hugo server -D -E -F --port 8080 --bind 0.0.0.0 --renderToDisk
     -d public
-version: 0.59.1
+version: 0.55.6
