@@ -18,6 +18,6 @@ fields:
   name: hero
   label: hero
 pages:
+- content/blog-posts/This folder has a really long name/Shorter Name/here-s-my-page.md
 - content/blog-posts/This folder has a really long name/this-is-my-blog.md
 - content/blog-posts/my-blog.md
-- content/blog-posts/This folder has a really long name/Shorter Name/here-s-my-page.md
