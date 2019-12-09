@@ -20,4 +20,5 @@ fields:
   label: theme
   hidden: true
 pages:
+- Section With Spaces/the-blog-title.md
 - config.toml
