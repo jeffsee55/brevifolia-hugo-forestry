@@ -17,3 +17,5 @@ fields:
 - type: file
   name: hero
   label: hero
+pages:
+- This is a terrible directory path/hello-world.md
