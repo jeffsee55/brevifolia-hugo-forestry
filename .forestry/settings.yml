@@ -6,17 +6,24 @@ webhook_url:
 sections:
 - type: heading
   label: Content
+- type: directory
+  path: This is a terrible directory path
+  label: My Stuff
+  create: all
+  match: "**/*"
+  templates:
+  - new-blog
+- type: directory
+  path: my-directory
+  label: Multiples
+  create: all
+  match: "**/*"
 - type: document
   path: content/about/info.md
   label: Info Page
 - type: directory
-  path: Section With Spaces
-  label: Section With Spaces
-  create: all
-  match: "**/*"
-- type: directory
   path: content/blog-posts
-  label: Blog posts
+  label: Blogging
   create: all
   match: "**/*"
   templates:
@@ -50,9 +57,4 @@ build:
   working_dir: "/srv"
   instant_preview_command: hugo server -D -E -F --port 8080 --bind 0.0.0.0 --renderToDisk
     -d public
-  publish_command: hugo -d public
-  publish_env:
-  - HUGO_ENV=production
-  - HUGO_VERSION=0.59.1
-  output_directory: public
 version: 0.59.1
