@@ -16,7 +16,7 @@ sections:
   label: Info Page
 - type: directory
   path: content/blog-posts
-  label: Blog posts 2
+  label: Blogging
   create: all
   match: "**/*"
   templates:
