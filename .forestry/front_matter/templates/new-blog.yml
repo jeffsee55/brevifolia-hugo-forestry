@@ -18,4 +18,8 @@ fields:
   name: hero
   label: hero
 pages:
-- This is a terrible directory path/hello-world.md
+- content/blog-posts/Some Folder Name/2017-04-30-why-we-built-a-company-before-a-product/nested
+  again/And again/my-blog-post.md
+- content/blog-posts/This folder has a really long name/this-is-my-blog.md
+- content/blog-posts/my-blog.md
+- content/blog-posts/This folder has a really long name/Shorter Name/here-s-my-page.md
