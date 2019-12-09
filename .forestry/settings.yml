@@ -7,6 +7,13 @@ sections:
 - type: heading
   label: Content
 - type: directory
+  path: This is a terrible directory path
+  label: My Stuff
+  create: all
+  match: "**/*"
+  templates:
+  - new-blog
+- type: directory
   path: my-directory
   label: Multiples
   create: all
