@@ -14,6 +14,8 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
+    min: '10'
+    max: '30'
   label: Description
 - name: author
   type: select
