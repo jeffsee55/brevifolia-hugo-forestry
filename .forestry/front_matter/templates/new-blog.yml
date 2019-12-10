@@ -9,7 +9,7 @@ fields:
     minCharacters: '10'
     maxCharacters: '200'
     min: '10'
-    max: '300'
+    max: '30'
 - type: datetime
   name: date
   label: date
