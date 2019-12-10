@@ -11,6 +11,8 @@ fields:
 - type: datetime
   name: date
   label: date
+  config:
+    required: true
 - type: text
   name: type
   label: type
@@ -21,6 +23,7 @@ fields:
   name: hero
   label: hero
 pages:
+- content/blog-posts/Helo/dfs.md
 - content/blog-posts/meh.md
 - content/blog-posts/this-is-a-new-blog.md
 - content/blog-posts/Some Folder Name/Some Other Name/Newww/Test1/hello-again.md
