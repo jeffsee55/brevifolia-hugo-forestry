@@ -7,7 +7,7 @@ fields:
   label: title
   config:
     minCharacters: '10'
-    maxCharacters: '20'
+    maxCharacters: '200'
 - type: datetime
   name: date
   label: date
