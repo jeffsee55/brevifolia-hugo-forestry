@@ -28,4 +28,5 @@ fields:
       section: ''
   label: Test
 pages:
+- my-directory/wowza.md
 - themes/tale-theme/data/Settings.toml
