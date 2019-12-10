@@ -8,8 +8,8 @@ fields:
   config:
     minCharacters: '10'
     maxCharacters: '200'
-    min: '10'
-    max: ''
+    min: ''
+    max: '20'
 - type: datetime
   name: date
   label: date
