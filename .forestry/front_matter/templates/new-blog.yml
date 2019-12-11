@@ -25,3 +25,5 @@ fields:
   config:
     min: 
     max: 
+pages:
+- content/blog-posts/my-new-blog.md
