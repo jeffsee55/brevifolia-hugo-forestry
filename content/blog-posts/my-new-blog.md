@@ -3,6 +3,7 @@ author = ""
 date = ""
 draft = true
 hero = ""
+number_test = 23
 title = ""
 type = ""
 [[blocktest]]
