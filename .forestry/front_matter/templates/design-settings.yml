@@ -17,5 +17,15 @@ fields:
     required: false
     color_format: Hex
   description: Enter text color for info page
+- name: number_test
+  type: number
+  label: Number Test
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
 pages:
 - themes/tale-theme/data/Settings.toml
