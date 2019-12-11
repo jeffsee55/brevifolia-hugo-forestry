@@ -25,5 +25,15 @@ fields:
   config:
     min: 
     max: 
+- name: number_test
+  type: number
+  label: Number Test
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
 pages:
 - content/blog-posts/my-new-blog.md
