@@ -6,3 +6,4 @@ title = "This is My Blog"
 type = ""
 
 +++
+The is a a [blog]( "https://example.com") that has links in it
