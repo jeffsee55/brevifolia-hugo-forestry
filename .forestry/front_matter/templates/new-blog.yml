@@ -18,12 +18,21 @@ fields:
 - type: text
   name: type
   label: type
-- type: text
-  name: author
-  label: author
 - type: file
   name: hero
   label: hero
+- name: auth
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: documents
+      section: authors-list
+      file: content/data/authors.yaml
+      path: authors
+  label: Auth
 pages:
 - content/blog-posts/Some Folder Name/Some Other Name/Newww/my-blog.md
 - This is a terrible directory path/hello-world.md
