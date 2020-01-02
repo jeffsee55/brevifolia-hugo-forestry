@@ -34,11 +34,11 @@ fields:
       path: authors
   label: Auth
 pages:
+- content/blog-posts/this-is-a-new-blog.md
 - content/blog-posts/Some Folder Name/Some Other Name/Newww/my-blog.md
 - This is a terrible directory path/hello-world.md
 - content/blog-posts/Helo/dfs.md
 - content/blog-posts/meh.md
-- content/blog-posts/this-is-a-new-blog.md
 - content/blog-posts/Some Folder Name/Some Other Name/Newww/Test1/hello-again.md
 - content/blog-posts/Some Folder Name/2017-04-30-why-we-built-a-company-before-a-product/My
   Folder/My nEsted folder/hello-world.md
