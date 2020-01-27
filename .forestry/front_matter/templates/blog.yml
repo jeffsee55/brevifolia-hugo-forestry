@@ -6,17 +6,6 @@ fields:
   name: title
   label: Title
   default: default
-- name: description
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-    min: '10'
-    max: '30'
-  label: Description
 - name: author
   type: select
   default: []
@@ -42,4 +31,4 @@ fields:
   name: hero
   label: Hero Image
 pages:
-- my-directory/default.md
+- content/blog-posts/Some Folder Name/Some Other Name/in-some-other-name.md

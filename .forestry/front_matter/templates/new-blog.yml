@@ -5,40 +5,35 @@ fields:
 - type: text
   name: title
   label: title
-  config:
-    minCharacters: '10'
-    maxCharacters: '200'
-    min: ''
-    max: '20'
 - type: datetime
   name: date
   label: date
-  config:
-    required: true
 - type: text
   name: type
   label: type
+- type: text
+  name: author
+  label: author
 - type: file
   name: hero
   label: hero
-- name: auth
-  type: select
-  default: []
+- name: blocktest
+  type: blocks
+  label: BlockTest
+  template_types:
+  - design-settings
   config:
-    required: false
-    options: []
-    source:
-      type: documents
-      section: authors-list
-      file: content/data/authors.yaml
-      path: authors
-  label: Auth
+    min: 
+    max: 
+- name: number_test
+  type: number
+  label: Number Test
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
 pages:
-- content/blog-posts/this-is-a-new-blog.md
-- content/blog-posts/Some Folder Name/Some Other Name/Newww/my-blog.md
-- This is a terrible directory path/hello-world.md
-- content/blog-posts/Helo/dfs.md
-- content/blog-posts/meh.md
-- content/blog-posts/Some Folder Name/Some Other Name/Newww/Test1/hello-again.md
-- content/blog-posts/Some Folder Name/2017-04-30-why-we-built-a-company-before-a-product/My
-  Folder/My nEsted folder/hello-world.md
+- content/blog-posts/my-new-blog.md
