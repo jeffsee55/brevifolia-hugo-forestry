@@ -14,6 +14,18 @@ contact_list:
   email: Goeshere
 - twitter_2: "@jsee"
   email: hello@user.com
+my__blocks:
+- template: blog
+  title: default
+  author: []
+  date: 03/31/2020 12:55 AM +0000
+  type: blog
+  related_posts: []
+  hero: ''
+- template: design-settings
+  primary_color: "#B1BCBC"
+  text_color: ''
+  test: []
 
 ---
 ## This is made with [Forestry](https://forestry.io/ "Forestry.io") & [Hugo](https://gohugo.io/ "Hugo SSG").
