@@ -37,6 +37,19 @@ fields:
     description: Enter contact email here
   label: contact info
   description: Enter contact info here
+- name: contact_list
+  type: field_group_list
+  fields:
+  - name: twitter_2
+    type: text
+    config:
+      required: false
+    label: Twitter 2
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Contact List
 pages:
 - content/about/info.md
 - content/blog-posts/Some Folder Name/Some Other Name/Newww/some-example-info-page.md
