@@ -45,6 +45,11 @@ fields:
     config:
       required: false
     label: Twitter 2
+  - name: email
+    type: text
+    config:
+      required: false
+    label: Email
   config:
     min: 
     max: 
