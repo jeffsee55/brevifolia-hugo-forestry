@@ -22,6 +22,16 @@ fields:
 - type: datetime
   name: date
   label: Date
+  config:
+    date_format: YYYY/DD/MM
+    time_format: hh:mm A ZZ
+    display_utc: true
+    export_format: MM/DD/YYYY h:mm A ZZ
+    required: true
+  default: now
+  showOnly:
+    field: author
+    value: Henry Thoreau
 - type: text
   name: type
   label: type
@@ -31,4 +41,12 @@ fields:
   name: hero
   label: Hero Image
 pages:
-- content/blog-posts/Some Folder Name/Some Other Name/in-some-other-name.md
+- content/blog-posts/Some Folder Name/2017-04-30-why-we-built-a-company-before-a-product/default.md
+- content/blog-posts/Some Folder Name/Some Other Name/some-other-title-that-s-quite-long.md
+- content/blog-posts/Some Folder Name/default.md
+- content/blog-posts/This folder has a really long name/Shorter Name/default.md
+- content/blog-posts/This folder has a really long name/default.md
+- content/blog-posts/Walking.md
+- content/blog-posts/geneology-of-morals.md
+- content/blog-posts/self-reliance.md
+- content/blog-posts/sunflower-sutra.md

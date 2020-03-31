@@ -17,23 +17,7 @@ fields:
 - type: file
   name: hero
   label: hero
-- name: blocktest
-  type: blocks
-  label: BlockTest
-  template_types:
-  - design-settings
-  config:
-    min: 
-    max: 
-- name: number_test
-  type: number
-  label: Number Test
-  description: ''
-  default: 0
-  required: true
-  config:
-    min: 
-    max: 
-    step: 
 pages:
-- content/blog-posts/my-new-blog.md
+- content/blog-posts/This folder has a really long name/Shorter Name/here-s-my-page.md
+- content/blog-posts/This folder has a really long name/this-is-my-blog.md
+- content/blog-posts/my-blog.md
