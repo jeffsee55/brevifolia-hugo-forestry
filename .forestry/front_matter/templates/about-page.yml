@@ -55,6 +55,15 @@ fields:
     max: 
     labelField: 
   label: Contact List
+- name: my__blocks
+  type: blocks
+  label: My Blocks
+  template_types:
+  - blog
+  - design-settings
+  config:
+    min: '2'
+    max: '4'
 pages:
 - content/about/info.md
 - content/blog-posts/Some Folder Name/Some Other Name/Newww/some-example-info-page.md
