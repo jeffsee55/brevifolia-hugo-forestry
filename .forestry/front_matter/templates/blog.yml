@@ -40,6 +40,18 @@ fields:
 - type: file
   name: hero
   label: Hero Image
+- name: related_posts
+  type: select
+  default: []
+  config:
+    required: true
+    options: []
+    source:
+      type: pages
+      section: blog-posts
+      file: 
+      path: 
+  label: Related Posts
 pages:
 - content/blog-posts/Some Folder Name/2017-04-30-why-we-built-a-company-before-a-product/default.md
 - content/blog-posts/Some Folder Name/Some Other Name/some-other-title-that-s-quite-long.md
