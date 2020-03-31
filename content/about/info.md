@@ -10,6 +10,8 @@ contact_info:
   github_url: https://github.com/forestryio
 type: ''
 contact_list:
+- twitter_2: AnotherItem
+  email: Goeshere
 - twitter_2: "@jsee"
   email: hello@user.com
 
