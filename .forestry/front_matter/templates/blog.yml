@@ -16,7 +16,7 @@ fields:
       type: documents
       section: authors-list
       file: content/data/authors.yaml
-      path: authors
+      path: ''
   label: Author
   description: Choose author here, add new authors in Authors List
 - type: datetime
