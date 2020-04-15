@@ -19,7 +19,8 @@ fields:
       file: content/data/authors.yaml
       path: authors
   label: Author
-  description: Choose author here, <strong>add</strong> new authors in Authors List
+  description: Choose author here, <strong>add</strong> new authors in <a href="https://ecample.com"
+    title="hello" target="_blank">Authors</a> List
 - type: datetime
   name: date
   label: Date
