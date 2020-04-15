@@ -45,6 +45,8 @@ fields:
     config:
       required: false
     label: Twitter 2
+    description: <a href="https://example.com" title="hmm" target="_blank">What's</a>
+      wrong <em>with</em> this?
   - name: email
     type: text
     config:
