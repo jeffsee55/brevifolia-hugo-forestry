@@ -66,6 +66,7 @@ fields:
   config:
     min: '2'
     max: '4'
+  description: What about <strong>here?</strong>
 pages:
 - content/about/info.md
 - content/blog-posts/Some Folder Name/Some Other Name/Newww/some-example-info-page.md
