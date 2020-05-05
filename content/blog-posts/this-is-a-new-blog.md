@@ -22,3 +22,5 @@ This is a test.
 {{ relref . "about.md" }}
 
 What about this?
+
+[link title text] ( {{< relref "/documentation/theme/shortcodes/relref.md" >}})
