@@ -17,4 +17,4 @@ primary_color = "#B1BCBC"
 template = "design-settings"
 
 +++
-\[link title text\]("{{< relref '/documentation/theme/shortcodes/relref.md' >}}") Ok and her ewe go
+[link title text]("how about this") Ok and her ewe go
