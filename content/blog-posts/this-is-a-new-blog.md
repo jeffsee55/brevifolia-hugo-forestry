@@ -19,9 +19,7 @@ template = "design-settings"
 +++
 {{% grid %}}
 {{% grid-item %}}
-
-## Have Questions
-
+Have Questions
 {{% /grid-item %}}
 {{% grid-item h-align="right" v-align="bottom" %}}
 {{< request-info />}}
