@@ -3,66 +3,64 @@ label: Blog Post
 hide_body: false
 display_field: title
 fields:
-  - type: text
-    name: title
-    label: Title
-    default: default
-  - name: author
-    type: select
-    default: []
-    config:
-      required: false
-      options: []
-      source:
-        type: documents
-        section: authors-list
-        file: content/data/authors.yaml
-        path: authors
-    label: Author
-    description:
-      Choose author here, <strong>add</strong> new authors in <a href="https://ecample.com"
-      title="hello" target="_blank">Authors</a> List
-  - type: datetime
-    name: date
-    label: Date
-    config:
-      date_format: YYYY/DD/MM
-      time_format: hh:mm A ZZ
-      display_utc: true
-      export_format: MM/DD/YYYY h:mm A ZZ
-      required: true
-    default: now
-    showOnly:
-      field: author
-      value: Henry Thoreau
-  - type: text
-    name: type
-    label: type
-    default: blog
-    hidden: true
-  - type: file
-    name: hero
-    label: Hero Image
-  - name: related_posts
-    type: select
-    default: []
-    config:
-      required: true
-      options: []
-      source:
-        type: pages
-        section: blog-posts
-        file:
-        path:
-    label: Related Posts
+- type: text
+  name: title
+  label: Title
+  default: default
+- name: author
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: documents
+      section: authors-list
+      file: content/data/authors.yaml
+      path: authors
+  label: Author
+  description: Choose author here, <strong>add</strong> new authors in <a href="https://ecample.com"
+    title="hello" target="_blank">Authors</a> List
+- type: datetime
+  name: date
+  label: Date
+  config:
+    date_format: YYYY/DD/MM
+    time_format: hh:mm A ZZ
+    display_utc: true
+    export_format: MM/DD/YYYY h:mm A ZZ
+    required: true
+  default: now
+  showOnly:
+    field: author
+    value: Henry Thoreau
+- type: text
+  name: type
+  label: type
+  default: blog
+  hidden: true
+- type: file
+  name: hero
+  label: Hero Image
+- name: related_posts
+  type: select
+  default: []
+  config:
+    required: true
+    options: []
+    source:
+      type: pages
+      section: blog-posts
+      file: 
+      path: 
+  label: Related Posts
 pages:
-  - content/blog-posts/Some Folder Name/2017-04-30-why-we-built-a-company-before-a-product/default.md
-  - content/blog-posts/Some Folder Name/Some Other Name/some-other-title-that-s-quite-long.md
-  - content/blog-posts/Some Folder Name/default.md
-  - content/blog-posts/This folder has a really long name/Shorter Name/default.md
-  - content/blog-posts/This folder has a really long name/default.md
-  - content/blog-posts/Walking.md
-  - content/blog-posts/geneology-of-morals.md
-  - content/blog-posts/self-reliance.md
-  - content/blog-posts/sunflower-sutra.md
-  - content/blog-posts/song-of-myself.md
+- content/blog-posts/Some Folder Name/2017-04-30-why-we-built-a-company-before-a-product/default.md
+- content/blog-posts/Some Folder Name/Some Other Name/some-other-title-that-s-quite-long.md
+- content/blog-posts/Some Folder Name/default.md
+- content/blog-posts/This folder has a really long name/Shorter Name/default.md
+- content/blog-posts/This folder has a really long name/default.md
+- content/blog-posts/Walking.md
+- content/blog-posts/geneology-of-morals.md
+- content/blog-posts/self-reliance.md
+- content/blog-posts/sunflower-sutra.md
