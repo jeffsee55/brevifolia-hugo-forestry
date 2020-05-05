@@ -17,6 +17,12 @@ primary_color = "#B1BCBC"
 template = "design-settings"
 
 +++
+
+{{% grid %}}
 {{% grid-item %}}
+## Have Questions?
 {{% /grid-item %}}
-ok
+{{% grid-item h-align="right" v-align="bottom" %}}
+{{< request-info />}}
+{{% /grid-item %}}
+{{% /grid %}
