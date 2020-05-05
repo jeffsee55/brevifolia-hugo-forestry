@@ -17,4 +17,8 @@ primary_color = "#B1BCBC"
 template = "design-settings"
 
 +++
+This is a test.
+
 {{ relref . "about.md" }}
+
+What about this?
